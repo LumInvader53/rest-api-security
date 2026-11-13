@@ -68,7 +68,7 @@ public class StudentServiceImplement implements StudentService {
   /**
    * Updates an existing student's details.
    *
-   * @param theId the ID of the student to update
+   * @param theId         the ID of the student to update
    * @param theStudentDto the updated student data
    * @return the updated student as a DTO
    * @throws StudentNotFoundException if no student is found with the given ID
@@ -90,7 +90,7 @@ public class StudentServiceImplement implements StudentService {
   /**
    * Applies a partial update to an existing student.
    *
-   * @param theId the ID of the student to update
+   * @param theId         the ID of the student to update
    * @param theStudentDto the fields to update
    * @return the updated student as a DTO
    * @throws StudentNotFoundException if no student is found with the given ID

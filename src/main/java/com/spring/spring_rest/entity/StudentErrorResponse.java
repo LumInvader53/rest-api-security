@@ -12,7 +12,8 @@ public class StudentErrorResponse {
   }
 
   /**
-   * Creates an error response with the specified status, message, and timestamp.
+   * Creates an error response with the specified
+   * status, message, and timestamp.
    *
    * @param status the HTTP status code
    * @param message the error message
